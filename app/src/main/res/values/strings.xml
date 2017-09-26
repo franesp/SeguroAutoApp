@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SeguroAutoApp</string>
+    <string name="titulo_app">Ingresa Datos</string>
+    <string-array name="marca_array">
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Ford</item>
+        <item>Great Wall</item>
+        <item>Lada</item>
+        <item>Subaru</item>
+        <item>Toyota</item>
+    </string-array>
+    <string name="hint_modelo">Ingresa modelo vehículo</string>
+    <string name="hint_ano">Ingresa año vehículo</string>
+    <string name="hint_patente">Ingresa N° patente</string>
+    <string name="hint_UF">Ingresa valor UF</string>
+    <string name="btn_ingresar">Ingresar</string>
+
+
+</resources>

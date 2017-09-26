@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:weightSum="1"
+    tools:context="francisco.cl.seguroautoapp.Main">
+
+
+    <TextView
+        android:id="@+id/txv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📄Ingresar Datos:"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        />
+
+    <Spinner
+        android:id="@+id/spn_marca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+
+    </Spinner>
+
+
+    <EditText
+        android:id="@+id/edt_modelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa modelo vehículo..."
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        />
+
+    <EditText
+        android:id="@+id/edt_ano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa año vehículo..."
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/edt_patente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa patente vehículo..."
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/edt_valor_UF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa valor UF..."
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_ingresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar datos"
+        android:textSize="20sp"
+        android:textColor="#77D353"
+        android:background="#47525E"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        />
+
+
+</LinearLayout>
